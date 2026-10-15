@@ -1,0 +1,45 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Large data, models, outputs
+data/raw/*
+data/processed/*
+data/artifacts/*
+data/outputs/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/artifacts/.gitkeep
+!data/outputs/.gitkeep
+
+# Environment
+.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and build files
+node_modules/
+dist/
+
+# Large AML dataset
+HI-Small_Trans.csv
+**/HI-Small_Trans.csv
+
+# Generated model files
+*.joblib
+*.pkl

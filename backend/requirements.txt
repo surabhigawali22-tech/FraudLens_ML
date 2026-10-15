@@ -1,0 +1,11 @@
+# FraudLens dependencies
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.3
+joblib>=1.3
+fastapi>=0.100.0
+uvicorn>=0.20.0
+pydantic>=2.0
+httpx>=0.24.0
+# Optional: lets the inspector report free RAM before reading the file
+psutil>=5.9
